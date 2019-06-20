@@ -1,3 +1,100 @@
 body {
-  background-color: red;
+  background-image: url("img/Fondo_desktop.svg");
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+#logo {
+  width: 160px;
+  height: 75px;
+  margin: 10px 0 0 20px;
+}
+#sup_1 {
+  display: flex;
+}
+#pista {
+  width: 850px;
+  height: 536px;
+  margin: 125px 0 0 80px;
+  position: absolute;
+}
+#botones_1 {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  top: 80px;
+  left: 130px;
+  align-content: center;
+}
+#botones_2 {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  top: 80px;
+  left: 300px;
+  align-content: center;
+}
+.boton_redondo {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 2px solid white;
+  padding: 2px;
+  color: white;
+  margin: 10px;
+  background-color: #172f4f;
+}
+.grada_verde {
+  border: none;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
+  background-color: #75932e;
+  color: white;
+  margin: 4px;
+}
+
+.grada_azul {
+  border: none;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
+  background-color: #337d9b;
+  color: white;
+  margin: 4px;
+}
+
+.grada_naranja {
+  border: none;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
+  background-color: #b4672c;
+  color: white;
+  margin: 4px;
+}
+
+.grada_amarilla {
+  border: none;
+  height: 30px;
+  object-fit: contain;
+  border-radius: 8px;
+  box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
+  background-color: #a98614;
+  color: white;
+  margin: 4px;
+}
+
+#grada_gd {
+  width: 150px;
+}
+#grada_med {
+  width: 110px;
+}
+#grada_ch {
+  width: 70px;
 }
