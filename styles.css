@@ -12,29 +12,146 @@ body {
 }
 #sup_1 {
   display: flex;
+  width: 850px;
+  height: 600px;
+  margin: 80px;
 }
 #pista {
-  width: 850px;
-  height: 536px;
-  margin: 125px 0 0 80px;
+  top: 130px;
+  left: 250px;
+  align-content: center;
   position: absolute;
 }
+#botones {
+  position: relative;
+}
+
 #botones_1 {
   flex-direction: row;
   align-items: flex-start;
   position: relative;
-  top: 80px;
-  left: 130px;
+  top: 3px;
+  left: 3px;
   align-content: center;
+  margin: 3px;
+  width: 100%;
 }
 #botones_2 {
   flex-direction: row;
   align-items: flex-start;
   position: relative;
-  top: 80px;
-  left: 300px;
+  top: -30px;
+  left: 720px;
   align-content: center;
+  margin: 3px;
 }
+
+#botones_3 {
+  flex-direction: row;
+  position: relative;
+  top: -40px;
+  left: -40px;
+}
+
+#botones_4 {
+  flex-direction: row;
+  position: relative;
+  top: -80px;
+  left: 810px;
+}
+#botones_5 {
+  flex-direction: row;
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+#botones_6 {
+  flex-direction: row;
+  position: relative;
+  top: -100px;
+  left: 830px;
+}
+#botones_7 {
+  flex-direction: row;
+  position: relative;
+  top: -90px;
+  left: 840px;
+}
+#botones_8 {
+  flex-direction: row;
+  position: relative;
+  top: -80px;
+  left: -40px;
+}
+#botones_9 {
+  flex-direction: row;
+  position: relative;
+  top: -85px;
+  left: 15px;
+}
+#botones_10 {
+  flex-direction: row;
+  position: relative;
+  top: -140px;
+  left: 840px;
+}
+#botones_11 {
+  flex-direction: row;
+  position: relative;
+  top: -110px;
+  left: 70px;
+}
+#botones_12 {
+  flex-direction: row;
+  position: relative;
+  top: -110px;
+  left: 100px;
+}
+#botones_13 {
+  flex-direction: row;
+  position: relative;
+  top: 80px;
+  left: 730px;
+}
+#botones_14 {
+  flex-direction: row;
+  position: relative;
+  top: 80px;
+  left: 760px;
+}
+#botones_15 {
+  flex-direction: row;
+  position: relative;
+  top: 180px;
+  left: 470px;
+  transform: rotate(90deg);
+}
+#botones_16 {
+  flex-direction: row;
+  position: relative;
+  top: -20px;
+  left: 650px;
+  transform: rotate(-45deg);
+}
+#botones_17 {
+  flex-direction: row;
+  position: relative;
+  top: 70px;
+  left: 630px;
+}
+.tarjeta {
+  background-color: #172f4f;
+  height: 180px;
+  width: 360px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin: 380px 0 0 -180px;
+}
+
 .boton_redondo {
   width: 2rem;
   height: 2rem;
@@ -42,9 +159,13 @@ body {
   border: 2px solid white;
   padding: 2px;
   color: white;
-  margin: 10px;
   background-color: #172f4f;
 }
+.boton_redondo:hover {
+  transform: scale(1.2);
+  transition: all 0.5s ease-in-out;
+}
+
 .grada_verde {
   border: none;
   height: 30px;
@@ -53,7 +174,9 @@ body {
   box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
   background-color: #75932e;
   color: white;
-  margin: 4px;
+}
+.grada_verde:hover {
+  background-color: #c1f14d;
 }
 
 .grada_azul {
@@ -64,7 +187,9 @@ body {
   box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
   background-color: #337d9b;
   color: white;
-  margin: 4px;
+}
+.grada_azul:hover {
+  background-color: #5ad0ff;
 }
 
 .grada_naranja {
@@ -75,7 +200,9 @@ body {
   box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
   background-color: #b4672c;
   color: white;
-  margin: 4px;
+}
+.grada_naranja:hover {
+  background-color: #fe913f;
 }
 
 .grada_amarilla {
@@ -86,15 +213,17 @@ body {
   box-shadow: inset 0 0 20px 0 rgba(53, 52, 52, 0.5);
   background-color: #a98614;
   color: white;
-  margin: 4px;
+}
+.grada_amarilla:hover {
+  background-color: #ffcb22;
 }
 
 #grada_gd {
-  width: 150px;
+  width: 100px;
 }
 #grada_med {
-  width: 110px;
+  width: 60px;
 }
 #grada_ch {
-  width: 70px;
+  width: 40px;
 }
